@@ -2,6 +2,7 @@
 # Script d'autoinstallation de Ioncube
 # Depot orginal sur chk.harmony-hosting.com
 
+
 # On mets en place le script
 clear
 cd /root
