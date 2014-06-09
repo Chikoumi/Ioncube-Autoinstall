@@ -10,6 +10,7 @@ Just download it and execute :
 
 #### Test installation ####
 
+You can run this code on a php page :
 ```
 <?php
 	if(extension_loaded('ionCube Loader')){
