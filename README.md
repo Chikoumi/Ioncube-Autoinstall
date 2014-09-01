@@ -45,4 +45,5 @@ Vous pouvez utiliser ce code dans une page php :
 	} else {
 		echo "Non installé";
 	}
+?>
 ```
