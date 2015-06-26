@@ -75,7 +75,7 @@ echo -e "\r\e[0;32m[OK]\e[0m Détection de la version de PHP : $VER_PHP   "
 
 #  On ajoute l'exetension au fichier de configuration de php
 echo -n "[En cours] Ajout de l'extension à PHP ..."
-echo "zend_extension=/usr/local/ioncube/ioncube_loader_lin_${VER_PHP}.so" > /etc/php5/conf.d/ioncube.ini
+sed -i '1izend_extension=/usr/local/ioncube/ioncube_loader_lin_${VER_PHP}.so' /etc/php5/apache2/php.ini
 sleep 3s
 echo -e "\r\e[0;32m[OK]\e[0m Ajout de l'extension à PHP                "
 
